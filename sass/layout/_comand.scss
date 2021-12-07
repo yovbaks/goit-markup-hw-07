@@ -1,0 +1,61 @@
+.comanda {
+  background-color: var(--bgcolor2);
+}
+.comanda-list {
+  display: flex;
+  justify-content: center;
+}
+.comanda-item {
+  box-shadow: var(--box-shadows);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+.comanda-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.comanda-thumb {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+  /* align-content: center; */
+}
+.comanda .title {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.comanda .text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+
+/* ----------- Comanda icon ---------------- */
+.comanda-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comanda-icon {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--clients-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: background-color var(--ttime) var(--cubic), fill var(--ttime) var(--cubic);
+}
+.comanda-icon:hover,
+.comanda-icon:focus {
+  fill: var(--white-color);
+  background-color: var(--theme-color);
+  background-size: 44px;
+}
