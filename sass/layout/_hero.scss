@@ -9,16 +9,17 @@
   background-color: var(--bgcolor-accent);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Img-hero-bg.jpg);
-
   background-position: center;
-}
-.hero__title {
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  letter-spacing: 0.06em;
-  margin-bottom: 30px;
+
+        &__title {
+          color: var(--white-color);
+          text-transform: uppercase;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 1.4;
+          text-align: center;
+          letter-spacing: 0.06em;
+          margin-bottom: 30px;
+        }
+
 }

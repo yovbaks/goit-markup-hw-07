@@ -40,18 +40,18 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
-.project__thumb {
+.projects__thumb {
   padding: 20px 24px;
   border-left: 1px solid var(--gallery-border);
   border-bottom: 1px solid var(--gallery-border);
   border-right: 1px solid var(--gallery-border);
 }
 
-.gallery-img-thumb {
+.projects__image {
   position: relative;
   overflow: hidden;
 }
-.gallery-overlay {
+.projects__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@
   transition: transform var(--ttime) var(--cubic);
 }
 
-.gallery-overlay-text {
+.projects__descriptiont {
   position: absolute;
   top: 0;
   left: 0;
@@ -77,8 +77,8 @@
   color: var(--white-color);
 }
 
-.gallery-item-link:hover .gallery-overlay,
-.gallery-item-link:focus .gallery-overlay {
+.projects__link:hover .projects__overlay,
+.projects__link:focus .projects__overlay {
   opacity: 1;
   transform: translateY(0);
 }

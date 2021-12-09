@@ -23,6 +23,7 @@
   line-height: 1.7;
   margin-bottom: 9px;
 }
+
 .footer-contacts{
       &__link {
           display: block;
@@ -117,20 +118,3 @@
 }
 
 
-// .subscribe__button {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   color: var(--white-color);
-//   background-color: var(--theme-color);
-//   border-color: var(--theme-color);
-//   padding: 10px 29px;
-//   overflow: hidden;
-//   transition: background-color var(--ttime) var(--cubic), fill var(--ttime) var(--cubic);
-
-//           &:hover,
-//           &:focus {
-//                   background-color: #188ce8;
-//                   border-color: transparent;
-//           }
-// }
