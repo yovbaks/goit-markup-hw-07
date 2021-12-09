@@ -245,6 +245,24 @@ li {
   background-color: #188ce8;
 }
 
+.filter__button {
+  background-color: var(--bgcolor2);
+  color: var(--title-color);
+  border-color: var(--bgcolor2);
+  box-shadow: none;
+  min-width: 73px;
+  border-style: none;
+  transition: background-color var(--ttime) var(--cubic), color var(--ttime) var(--cubic), box-shadow var(--ttime) var(--cubic);
+}
+
+.filter__button--active:hover,
+.filter__button--active:focus {
+  color: var(--white-color);
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  box-shadow: var(--box-shadows-btn);
+}
+
 .button-list {
   display: flex;
   justify-content: center;
