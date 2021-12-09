@@ -6,23 +6,24 @@
 
 @import './components/container';
 @import './components/section';
+@import './components/_title';
 
 
-
+@import './components/logo';
 @import './layout/header';
 @import './layout/hero';
-@import './layout/button';
+@import './components/button';
 @import './layout/filter';
 @import './layout/features';
-@import './layout/whatwedo';
+@import './layout/work';
 @import './layout/team';
 @import './layout/projects';
 @import './layout/clients';
 @import './layout/footer';
-@import './layout/backdrop';
 @import './layout/modal';
+
 @import './layout/forms';
-@import './layout/policy';
+
 
 
 
