@@ -13,6 +13,15 @@
   }
 }
 
+.footer-title {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--white-color);
+      margin-bottom: 20px;
+}
 
 
 .address {
@@ -69,16 +78,6 @@
       }
 }
 
-.social__title,
-.subscribe__title {
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.2;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: var(--white-color);
-      margin-bottom: 20px;
-}
 
 
 
